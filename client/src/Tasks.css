@@ -1,0 +1,35 @@
+.task-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.task-table,
+.task-table th,
+.task-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.task-table th,
+.task-table td {
+    padding: 8px;
+    text-align: left;
+}
+
+.logout-button {
+    background-color: rgba(253, 127, 8, 0.997);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+}
+
+.logout-button:hover {
+    background-color: darkred;
+}
